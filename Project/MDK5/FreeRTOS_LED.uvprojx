@@ -379,36 +379,6 @@
       </TargetOption>
       <Groups>
         <Group>
-          <GroupName>Apps</GroupName>
-          <Files>
-            <File>
-              <FileName>chassis_control.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\Apps\chassis_control.c</FilePath>
-            </File>
-            <File>
-              <FileName>cloud_control.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\Apps\cloud_control.c</FilePath>
-            </File>
-            <File>
-              <FileName>DevicesMonitor.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\Apps\DevicesMonitor.c</FilePath>
-            </File>
-            <File>
-              <FileName>Filter.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\Apps\Filter.c</FilePath>
-            </File>
-            <File>
-              <FileName>PID.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\Apps\PID.c</FilePath>
-            </File>
-          </Files>
-        </Group>
-        <Group>
           <GroupName>User</GroupName>
           <Files>
             <File>
@@ -432,11 +402,6 @@
               <FilePath>..\..\User\user_common.h</FilePath>
             </File>
             <File>
-              <FileName>typedef.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\..\User\typedef.h</FilePath>
-            </File>
-            <File>
               <FileName>user_code.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\User\user_code.c</FilePath>
@@ -444,75 +409,14 @@
           </Files>
         </Group>
         <Group>
-          <GroupName>Devices</GroupName>
-          <Files>
-            <File>
-              <FileName>ANO.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\Devices\ANO.c</FilePath>
-            </File>
-            <File>
-              <FileName>DR16.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\Devices\DR16.c</FilePath>
-            </File>
-            <File>
-              <FileName>GY6050.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\Devices\GY6050.c</FilePath>
-            </File>
-            <File>
-              <FileName>M3508.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\Devices\M3508.c</FilePath>
-            </File>
-            <File>
-              <FileName>M6020.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\Devices\M6020.c</FilePath>
-            </File>
-          </Files>
-        </Group>
-        <Group>
-          <GroupName>IMU</GroupName>
-        </Group>
-        <Group>
           <GroupName>Drivers</GroupName>
           <Files>
-            <File>
-              <FileName>bsp_can.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\Drivers\bsp_can.c</FilePath>
-            </File>
-            <File>
-              <FileName>bsp_delay.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\Drivers\bsp_delay.c</FilePath>
-            </File>
-            <File>
-              <FileName>bsp_nvic.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\Drivers\bsp_nvic.c</FilePath>
-            </File>
-            <File>
-              <FileName>bsp_tim.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\Drivers\bsp_tim.c</FilePath>
-            </File>
-            <File>
-              <FileName>bsp_usart.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\Drivers\bsp_usart.c</FilePath>
-            </File>
             <File>
               <FileName>bsp_led.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\Drivers\bsp_led.c</FilePath>
             </File>
           </Files>
-        </Group>
-        <Group>
-          <GroupName>Docs</GroupName>
         </Group>
         <Group>
           <GroupName>startup</GroupName>
